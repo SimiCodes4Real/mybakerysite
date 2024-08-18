@@ -1,0 +1,73 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+.site-wrapper{
+    width: 100%;
+    height: auto;
+    /* margin: 50px 0; */
+    overflow: hidden;
+}
+.banner{
+    background-position: center ;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+}
+.big-banner{
+    background-image: url('../images/cake2.jpg');
+    background-position: center ;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 260px;
+}
+#slider{
+    position: relative;
+    width: 100%;
+    height: 450px;
+}
+.maintext span{
+    font-size: 18px;
+    margin-top: 90px;
+    line-height: 1.7;
+    letter-spacing: 6px;
+}
+.maintext h2, .testimonial h2, .blog h2{
+    font-size: 60px;
+    font-weight: 400;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: rgb(68, 68, 68);
+}
+.img{
+    width: 100%;
+    height: auto;
+}
+.contactform{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 100px;
+    background: #fff;
+    padding-bottom: 68px;
+    margin-top: 50px;
+}
+input{
+    border: none;
+    outline: none;
+}
+input .input100{
+    height: 40px;
+}
+.input100{
+    display: block;
+    width: 100%;
+    background: transparent;
+    font-family: "Roboto";
+    font-size: 18px;
+    color: #555555;
+    line-height: 1.2;
+    padding: 0 5px;
+}
